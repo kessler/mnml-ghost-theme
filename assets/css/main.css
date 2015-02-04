@@ -330,7 +330,7 @@ mark {
   background-color: #FFC336;
 }
 
-code, tt {
+/*code */ tt {
   padding: 1px 3px;
   font-family: Inconsolata, monospace, sans-serif;
   font-size: 0.857rem;
@@ -355,7 +355,7 @@ pre {
 }
 
 /* These override prism’s default codeblock styles to make them match*/
-pre[class*="language-"], .token.operator{
+/*pre[class*="language-"], .token.operator{
   background: #F7FAFB !important;
 }
 
@@ -372,7 +372,7 @@ code[class*="language-"]{
 }
 
 
-pre code, tt {
+/*pre code, */tt {
   font-size: inherit;
   white-space: -moz-pre-wrap;
   white-space: pre-wrap;
