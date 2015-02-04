@@ -1,8 +1,8 @@
 {
   "name": "Mnml",
-  "version": "3.5.0",
+  "version": "3.5.1",
   "scripts": {
-  	"preinstall": "mkdir ../../ghost-content/themes/mnml-ghost-theme",
-  	"install": "cp -R * ../../ghost-content/themes/mnml-ghost-theme"
+    "preinstall": "mkdir ../../ghost-content/themes/mnml-ghost-theme",
+    "install": "cp -R * ../../ghost-content/themes/mnml-ghost-theme"
   }
 }
