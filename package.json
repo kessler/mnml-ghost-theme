@@ -2,6 +2,6 @@
   "name": "Mnml",
   "version": "3.5.0",
   "scripts": {
-  	"install": "cp -R * ../../ghost-content/themes"
+  	"install": "cp -R * ../../ghost-content/themes/mnml-ghost-theme"
   }
 }
