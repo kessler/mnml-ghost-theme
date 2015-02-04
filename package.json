@@ -2,7 +2,7 @@
   "name": "Mnml",
   "version": "3.5.0",
   "scripts": {
-  	"preinstall": "../../ghost-content/themes/mnml-ghost-theme"
+  	"preinstall": "../../ghost-content/themes/mnml-ghost-theme",
   	"install": "cp -R * ../../ghost-content/themes/mnml-ghost-theme"
   }
 }
