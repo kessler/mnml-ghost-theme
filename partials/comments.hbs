@@ -1,5 +1,5 @@
 <section class="post-comments center-text">
-<button class="show-comments btn--full-width" id="show-comments" onclick="loadComments();"><a href="{{url}}#disqus_thread">Load Comments</a></button>
+<!--button class="show-comments btn--full-width" id="show-comments" onclick="loadComments();"><a href="{{url}}#disqus_thread">Load Comments</a></button -->
 
 <!-- The empty element required for Disqus to loads comments into -->
 <div id="disqus_thread"></div>
@@ -10,7 +10,7 @@
 <script type="text/javascript">
 
   // EDIT THIS LINE!
-  var disqus_shortname = 'YOUR_DISQUS_SHORTCODE'; // You *must* replace this with your shortname
+  var disqus_shortname = 'yanivkessler'; // You *must* replace this with your shortname
 
   var disqus_identifier = '{{uuid}}';
 
@@ -21,7 +21,7 @@
     (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
   }());
 
-  function loadComments() {
+  //function loadComments() {
     (function () {
       var dsq = document.createElement('script');
       dsq.type = 'text/javascript';
@@ -30,6 +30,6 @@
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     document.getElementById('show-comments').style.display = "none";
-  }
+  //}
 </script>
 </section>
