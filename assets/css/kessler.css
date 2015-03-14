@@ -1,7 +1,12 @@
 p {
 	margin: 0.7em 0 0 0
 }
-
 .post-content > p + p, .post-content .thumb + p, .post-content aside + p {
 	text-indent: 0em;
+}
+blockquote {
+	box-sizing: border-box;
+	margin: 1.65rem 0 1.65rem 0.1rem;
+	padding: 0 0 0 1rem;
+	border-left: orange 6px double;
 }
