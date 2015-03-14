@@ -1,0 +1,5 @@
+p{margin: 0}
+
+.post-content aside + p{
+  text-indent:0em;
+}

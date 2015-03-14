@@ -1,0 +1,20 @@
+<div id='livefyre'>
+</div>
+<script src='//cdn.livefyre.com/Livefyre.js'></script>
+<script>
+    var networkConfig = {
+        network: 'blog.yanivkessler.com'
+    }
+
+    var convConfig = {
+        siteId: 'siteId',
+        articleId: 'articleId',
+        el: 'livefyre',
+        collectionMeta: 'collectionMeta',
+        checksum: 'checksum'
+    }
+
+    Livefyre.require(['fyre.conv#3'], function(Conv) {
+        new Conv(networkConfig, [convConfig], function(widget) {});
+    });        
+</script>
