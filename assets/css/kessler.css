@@ -1,5 +1,7 @@
-p{margin: 0}
+p {
+	margin: 0.7em 0 0 0
+}
 
-.post-content aside + p{
-  text-indent:0em;
+.post-content > p + p, .post-content .thumb + p, .post-content aside + p {
+	text-indent: 0em;
 }
