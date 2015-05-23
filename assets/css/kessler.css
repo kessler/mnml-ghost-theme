@@ -1,9 +1,11 @@
 p {
-	margin: 0.7em 0 0 0
+	margin: 0.7em 0 0 0 !important;
 }
+
 .post-content > p + p, .post-content .thumb + p, .post-content aside + p {
-	text-indent: 0em;
+	text-indent: 0em !important;
 }
+
 blockquote {
 	box-sizing: border-box;
 	margin: 1.65rem 0 1.65rem 0.1rem;
